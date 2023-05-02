@@ -1,7 +1,9 @@
 <template>
   <form action="" class="form">
     <h1>Todo List App</h1>
-    <contentTodoList></contentTodoList>
+    <ul>
+      <contentTodoList></contentTodoList>
+    </ul>
     <p>total list is complete:0</p>
   </form>
 </template>
