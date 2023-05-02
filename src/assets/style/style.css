@@ -4,4 +4,61 @@
     text-decoration: none;
     list-style: none;
     color: black;
+    text-transform: capitalize;
+}
+body{
+    position: relative;
+    background: #252525;
+}
+.form{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    margin-top: 150px;
+    left: 35%;
+    background: rgb(2, 71, 2);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #252525;
+}
+.form ul,li a,h1,p{
+    color: #f1f1f1;
+}
+.content__li{
+display: flex;
+justify-content: space-between;
+}
+.content__li *{
+    margin: 5px;
+}
+.content__li p{
+    line-height: 40px;    
+}
+.content__li button{
+    padding:8px 30px;
+    border-radius: 20px;
+    border: none;
+    background: #8eecb8;
+    color: #252525;
+}
+.total{
+    text-align: right;
+    margin: 5px 0;
+}
+.active{
+    text-decoration: line-through;
+    color: rgb(111, 111, 111);
+}
+.addbtn{
+    padding:8px 30px;
+    border-radius: 20px;
+    border: none;
+    background: #8eecb8;
+    color: #252525;
+}
+.textContent {
+    border-radius:20px ;
+    padding: 5px 15px;
+    width: 300px;
+    margin: 5px;
 }
